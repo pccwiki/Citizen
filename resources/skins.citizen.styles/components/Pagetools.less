@@ -99,15 +99,20 @@
 #ca-edit,
 #ca-ve-edit {
 	> a {
-		color: var( --color-inverted-primary );
-		background-color: var( --color-progressive );
+		gap: var( --space-xxs );
+	        padding-right: var( --space-sm );
+		padding-left: var( --space-sm );
+		font-size: 0;
+		border-radius: var( --border-radius-medium );
+		/* color: var( --color-inverted-primary );
+		background-color: var( --color-progressive );*/
 
 		&:hover {
-			background-color: var( --color-progressive--hover );
+			background-color: var( --color-button-quiet--hover );
 		}
 
 		&:active {
-			background-color: var( --color-progressive--active );
+			background-color: var( --color-button-quiet--active );
 		}
 	}
 }
@@ -126,20 +131,20 @@
 	// Additional check to check if there are actually source edit button (#929)
 	&#ca-ve-edit:has( + #ca-edit ) {
 		> a {
-			border-top-right-radius: 0;
-			border-bottom-right-radius: 0;
+			/*border-top-right-radius: 0;
+			border-bottom-right-radius: 0;*/
 		}
 	}
 
 	&#ca-edit {
-		margin-left: ~'calc( var( --space-xxs ) * -1 )';
-		border-left: var( --border-width-base ) solid var( --color-progressive--hover );
+		/*margin-left: ~'calc( var( --space-xxs ) * -1 )';
+		border-left: var( --border-width-base ) solid var( --color-progressive--hover ); */
 
 		> a {
-			gap: 0;
+			/* gap: 0;*/
 			font-size: 0; // hide edit source text
-			border-top-left-radius: 0;
-			border-bottom-left-radius: 0;
+			/* border-top-left-radius: 0;
+			border-bottom-left-radius: 0;*/
 		}
 	}
 }
