@@ -20,10 +20,7 @@ a:where( .new:not( [ role='button' ] ) ) {
 	a {
 		&.external {
 			&::after {
-				margin-inline-start: 4px;
-				content: '';
-				.cdx-mixin-css-icon( @cdx-icon-link-external, currentColor, @size-icon-x-small );
-				.cdx-mixin-css-icon-alignment( baseline );
+				display: none;
 			}
 		}
 	}
