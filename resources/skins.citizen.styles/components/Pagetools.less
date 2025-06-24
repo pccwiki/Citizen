@@ -99,15 +99,18 @@
 #ca-edit,
 #ca-ve-edit {
 	> a {
-		color: var( --color-inverted-primary );
-		background-color: var( --color-progressive );
+		gap: 0;
+		padding-right: var( --space-sm );
+		padding-left: var( --space-sm );
+		font-size: 0;
+		border-radius: var( --border-radius-medium );
 
 		&:hover {
-			background-color: var( --color-progressive--hover );
+			background-color: var( --background-color-button-quiet--hover );
 		}
 
 		&:active {
-			background-color: var( --color-progressive--active );
+			background-color: var( --background-color-button-quiet--active );
 		}
 	}
 }
