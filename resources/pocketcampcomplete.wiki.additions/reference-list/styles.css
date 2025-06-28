@@ -1,0 +1,15 @@
+.active {
+ thead {background: #F17EB8;
+          color: #FDF2F8}
+  
+ tbody {background: #FDF2F8; 
+           color: FDF2F8}
+}
+
+.passive {
+  thead {background: #1E429F;
+         color: #E1EFFE}
+  tbody {background: #76A9FA;
+         color: #EBF5FF}
+        }
+  
