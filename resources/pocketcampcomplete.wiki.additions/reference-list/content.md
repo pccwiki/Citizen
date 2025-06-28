@@ -1,17 +1,6 @@
-<h1><b>Variable</b></h1>
-<blockquote><b>Status</b>: Active</blockquote>
-<h4>Children</h4>
-<li>Variable</li>
-<li>Variable</li>
-<li>Variable</li>
-
-<h3>AFFECTED FILES</h3>
-<h5>Path/<b><i>Name</i></b></h5>
-<li>Class</li>
-<li>Class</li>
-<li>Class</li>
-
-<h5>Path/<b><i>Name</i></b></h5>
-<li>Class</li>
-<li>Class</li>
-<li>Class</li>
+<h1><b>--color-link</b></h1>
+<h4>Inheritors</h4>
+<li>@color-link</li>
+<li>@color-link--visited</li>
+<li>@color-link-external</li>
+<li>@color-link-external--visited</li>
