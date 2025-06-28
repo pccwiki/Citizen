@@ -1,49 +1,22 @@
-<link rel="stylesheet" href="https://github.com/pccwiki/Citizen/tree/main/resources/pocketcampcomplete.wiki.additions/reference-list/style.css">
+<h1><b>Variable</b></h1>
+<blockquote><b>Status</b>: Active</blockquote>
+<h4>Inheritors:</h4>
+<li>Variable</li>
+<li>Variable</li>
+<li>Variable</li>
 
-<table class="active">
-    <thead>
-        <tr>
-            <th colspan="5">Overall Header</th>
-        </tr>
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
-            <th>Column 4</th>
-            <th>Column 5</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Row 1, Col 1</td>
-            <td>Row 1, Col 2</td>
-            <td>Row 1, Col 3</td>
-            <td>Row 1, Col 4</td>
-            <td>Row 1, Col 5</td>
-        </tr>
-    </tbody>
-</table>
+<h4>References</h4>
+<li>Variable</li>
+<li>Variable</li>
+<li>Variable</li>
 
-<table class="passive">
-    <thead>
-        <tr>
-            <th colspan="5">Overall Header</th>
-        </tr>
-        <tr>
-            <th>Column 1</th>
-            <th>Column 2</th>
-            <th>Column 3</th>
-            <th>Column 4</th>
-            <th>Column 5</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>Row 1, Col 1</td>
-            <td>Row 1, Col 2</td>
-            <td>Row 1, Col 3</td>
-            <td>Row 1, Col 4</td>
-            <td>Row 1, Col 5</td>
-        </tr>
-    </tbody>
-</table>
+<h3>AFFECTED FILES</h3>
+<h5>Path/<b><i>Name</i></b></h5>
+<li>Class</li>
+<li>Class</li>
+<li>Class</li>
+
+<h5>Path/<b><i>Name</i></b></h5>
+<li>Class</li>
+<li>Class</li>
+<li>Class</li>
