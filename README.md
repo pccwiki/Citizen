@@ -134,7 +134,6 @@ Name | Version
 [Graph](https://www.mediawiki.org/wiki/Extension:Graph) | N/A
 [Interwiki](https://www.mediawiki.org/wiki/Extension:Interwiki) | REL1_35 `a65a18e`
 [Lingo](https://www.mediawiki.org/wiki/Extension:Lingo) | REL1_35 `e948775`
-[ManageWiki](https://www.mediawiki.org/wiki/Extension:ManageWiki) | master `e626a9f`
 [MediaSearch](https://www.mediawiki.org/wiki/Extension:MediaSearch) | REL1_39 `e0aa7bb`
 [MsUpload](https://www.mediawiki.org/wiki/Extension:MsUpload) | REL1_35 `32eb420`
 [MultimediaViewer](https://www.mediawiki.org/wiki/Extension:MultimediaViewer) | REL1_43
@@ -142,7 +141,7 @@ Name | Version
 [Popups](https://www.mediawiki.org/wiki/Extension:Popups) | REL1_43
 [PortableInfobox](https://www.mediawiki.org/wiki/Extension:PortableInfobox) | 0.6 `16a77dc`
 [RelatedArticles](https://www.mediawiki.org/wiki/Extension:RelatedArticles) | REL1_43
-[ReplaceText](https://www.mediawiki.org/wiki/Extension:ReplaceText) | REL1_39 `af4840a`
+[ReplaceText](https://www.mediawiki.org/wiki/Extension:ReplaceText) | REL1_43
 [RevisionSlider](https://www.mediawiki.org/wiki/Extension:RevisionSlider) | REL1_35 `4c4e368`
 [Score](https://www.mediawiki.org/wiki/Extension:Score) | REL1_39 `0a66cef`
 [Scribunto](https://www.mediawiki.org/wiki/Extension:Scribunto) | REL1_39 `ebb91f2`
