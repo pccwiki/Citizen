@@ -1,11 +1,11 @@
 <h1><b>Variable</b></h1>
 <blockquote><b>Status</b>: Active</blockquote>
-<h4>Inheritors:</h4>
+<h4>Parents:</h4>
 <li>Variable</li>
 <li>Variable</li>
 <li>Variable</li>
 
-<h4>References</h4>
+<h4>Children</h4>
 <li>Variable</li>
 <li>Variable</li>
 <li>Variable</li>
