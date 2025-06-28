@@ -1,1 +1,29 @@
+:root {
+  /* Syntax Colors - Light Theme */
+  --syntax-red:        #e53935;
+  --syntax-orange:     #f76d47;
+  --syntax-yellow:     #e2931d;
+  --syntax-green:      #91b859;
+  --syntax-cyan:       #39adb5;
+  --syntax-blue:       #6182b8;
+  --syntax-paleblue:   #8796b0;
+  --syntax-purple:     #9c3eda;
+  --syntax-brown:      #916b53;
+  --syntax-pink:       #ff5370;
+  --syntax-violet:     #945eb8;
+  --syntax-grey:       #90a4ae;
 
+  /* Syntax Colors - Dark Theme */
+  --syntax-red-dark:        #f07178;
+  --syntax-orange-dark:     #f78c6c;
+  --syntax-yellow-dark:     #ffcb6b;
+  --syntax-green-dark:      #c3e88d;
+  --syntax-cyan-dark:       #89ddff;
+  --syntax-blue-dark:       #82aaff;
+  --syntax-paleblue-dark:   #b2ccd6;
+  --syntax-purple-dark:     #c792ea;
+  --syntax-brown-dark:      #916b53;
+  --syntax-pink-dark:       #ff9cac;
+  --syntax-violet-dark:     #bb80b3;
+  --syntax-grey-dark:       #676E95;
+}
