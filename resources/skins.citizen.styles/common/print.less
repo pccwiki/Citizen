@@ -3,9 +3,9 @@
 }
 
 :root {
-	--border-color-base: #aaa !important;
-	--border-width-base: 1pt;
-	--border-width-thick: 2pt;
+	--border-color-base: var(--color-neutral-800, #aaa) !important;
+	--border-width-base: var(--border-width-base);
+	--border-width-thick: var(--border-width-thick);
 }
 
 // Hide unnessecary elements for printing
@@ -24,8 +24,8 @@
 }
 
 a {
-	color: #000;
-	border-bottom: 1pt solid var( --border-color-base );
+	color: var(--color-black-950, #000);
+	border-bottom: var(--border-width-base) solid var( --border-color-base );
 }
 
 table,
@@ -44,7 +44,7 @@ svg {
 	order: -1;
 	padding-block: var( --space-md );
 	margin-bottom: var( --space-md );
-	border-bottom: 1pt solid var( --border-color-base );
+	border-bottom: var(--border-width-base) solid var( --border-color-base );
 }
 
 .citizen-footer__container {
@@ -54,27 +54,27 @@ svg {
 }
 
 #footer-tagline {
-	font-size: 9pt;
+	font-size: var(--font-size-small, 0.75rem);
 }
 
 #firstHeading {
-	margin: 0;
+	margin: var(--space-zero);
 }
 
 .printfooter {
-	margin-top: 1em;
-	font-size: 9pt;
-	border-top: 1pt solid var( --border-color-base );
+	margin-top: var(--em-space-unit);
+	font-size: var(--font-size-small, 0.75rem);
+	border-top: var(--border-width-base) var(--border-style-base) var( --border-color-base );
 }
 
 .wikitable {
-	margin: 1em 0;
+	margin: var(--em-space-unit) var(--space-zero);
 	border-collapse: collapse;
-	border: 1pt solid var( --border-color-base );
+	border: var(--border-width-base) var(--border-style-base) var( --border-color-base );
 }
 
 .wikitable th,
 .wikitable td {
 	padding: var( --space-xs ) var( --space-sm );
-	border: 1pt solid var( --border-color-base );
+	border: var(--border-width-base) var(--border-style-base) var( --border-color-base );
 }
