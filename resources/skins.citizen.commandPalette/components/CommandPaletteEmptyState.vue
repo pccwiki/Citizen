@@ -55,7 +55,7 @@ module.exports = exports = defineComponent( {
 	gap: var( --space-xs );
 	align-items: center;
 	justify-content: center;
-	padding: var( --space-xxl ) var( --citizen-command-palette-side-padding );
+	padding: var( --space-xxxl ) var( --citizen-command-palette-side-padding );
 	text-align: center;
 
 	&__icon {
