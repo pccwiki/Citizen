@@ -6,6 +6,7 @@
  * TODO: Use CSS relative color syntax when supported in all browsers
  */
 .theme-dark() {
+	/* pccw dynamic transparency tokens*/
 	@import 'pccw.additions.edits/transparency-tokens-dark.less';
 
 	--color-transparent-50: @color-transparent-50;
@@ -19,6 +20,8 @@
 	--color-transparent-800: @color-transparent-800;
         --color-transparent-900: @color-transparent-900;
         --color-transparent-950: @color-transparent-950;
+
+	
 	--delta-lightness-surface-base: 2%;
 
 	--color-progressive-oklch__l: 60%; // TODO: Separate background-color-progressive from color-progressive
