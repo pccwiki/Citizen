@@ -6,6 +6,22 @@
  * TODO: Use CSS relative color syntax when supported in all browsers
  */
 .theme-base() {
+
+	/* pccw dynamic transparency tokens*/
+	@import 'pccw.additions.edits/transparency-tokens-dark.less';
+
+	--color-transparent-50: @color-transparent-50;
+	--color-transparent-100: @color-transparent-100;
+	--color-transparent-200: @color-transparent-200;
+	--color-transparent-300: @color-transparent-300;
+	--color-transparent-400: @color-transparent-400;
+	--color-transparent-500: @color-transparent-500;
+	--color-transparent-600: @color-transparent-600;
+	--color-transparent-700: @color-transparent-700;
+	--color-transparent-800: @color-transparent-800;
+        --color-transparent-900: @color-transparent-900;
+        --color-transparent-950: @color-transparent-950;
+
 	// Hover and active states are calculated by a modifier of the lightness value (e.g. hover: +2%, active: -2%)
 	--delta-lightness-state-base: 4%;
 	--delta-lightness-hover-state: calc( var( --delta-lightness-state-base ) * 1 );
